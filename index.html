@@ -16,6 +16,11 @@
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c3581291b4.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -24,6 +29,7 @@
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+        font-size: 11px;
       }
     </style>
   </head>
@@ -95,20 +101,26 @@
 
     <footer>
       <div id="community">
-        <h2>Get Started For Free</h2>
-        <button id="CommunityButton">Ready To Build Your Community?</button>
+        <h2>Ready To Build Your Community?</h2>
+        <button id="CommunityButton">Get Started For Free</button>
       </div>
-
+      <img id="huddleSVG" src="./images/logo.svg" alt="" />
       <div id="footerData">
         <div id="contactUs">
-          <img src="./images/logo.svg" alt="" />
           <div id="footerLocation">
-            <img src="./images/icon-location.svg" alt="" /> Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua
+            <img src="./images/icon-location.svg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
           </div>
-          <div id="footerNumber">+1-543-123-4567</div>
-          <div id="footerEmail">example@huddle.com</div>
+          <div id="footerNumber">
+            <img src="./images/icon-phone.svg" alt="" />
+            +1-543-123-4567
+          </div>
+          <div id="footerEmail">
+            <img src="./images/icon-email.svg" alt="" /> example@huddle.com
+          </div>
         </div>
 
         <div id="aboutUs">
@@ -122,16 +134,21 @@
           <b>Blog</b>
           <b>Contact Us</b>
         </div>
+        <div id="socialMedia">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
       </div>
 
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. <br />
+        Coded by <a href="https://github.com/Yashbabani0">Yash Babani</a>.
+        <br />&copy; Copyright 2018 Huddle. All rights reserved.
       </p>
-
-      &copy; Copyright 2018 Huddle. All rights reserved.
     </footer>
   </body>
 </html>
