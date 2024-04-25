@@ -142,7 +142,6 @@ h2 {
 }
 
 #huddleSVG {
-  background-color: white;
   top: 7%;
   left: 5%;
   padding: 1em;
@@ -209,7 +208,7 @@ i:hover {
   border-color: var(--Pink);
   transition: 1s;
 }
-@media (min-width: 23em) and (max-width: 62em) {
+@media (min-width: 20em) and (max-width: 62em) {
   body {
     max-width: 100%;
     min-width: 100%;
@@ -261,10 +260,12 @@ i:hover {
     height: 30em;
   }
   .cardMain img {
-    width: 80%;
+    width: 60%;
     position: absolute;
-    top: 5%;
-    left: 10%;
+    top: 10%;
+    left: 50%;
+    padding: 1em;
+    transform: translate(-50%, -0%);
   }
   .cardText {
     position: absolute;
@@ -284,6 +285,7 @@ i:hover {
     min-width: 100;
     max-width: 100%;
     padding: 0 1em;
+    padding-bottom: 1em;
     padding-top: 10em;
     display: flex;
     align-items: center;
@@ -293,6 +295,7 @@ i:hover {
   #community {
     width: 90%;
     text-align: center;
+    top: -20%;
   }
   h2 {
     font-size: 1em;
@@ -302,16 +305,35 @@ i:hover {
     padding: 1em;
   }
   #huddleSVG {
-    top: 20%;
-    left: 10%;
-    width: 50%;
+    top: 10%;
+    left: 5%;
+    width: 60%;
   }
   #contactUs {
     width: 100%;
     font-size: 1em;
   }
   #footerData {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+  #aboutUs {
+    margin-top: 3em;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  #career {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  #socialMedia {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
 }
